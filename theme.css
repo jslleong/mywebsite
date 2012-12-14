@@ -1,5 +1,5 @@
 @font-face {
-  font-family: gothambook;
+	font-family: gothambook;
 	src: url('../fonts/Gotham-Book.ttf');
 }
 
@@ -131,11 +131,22 @@ footer img{
 	margin-left: -50px;
 }
 
+.carousel-inner{
+	
+}
 .carousel.slide{
 	margin:auto;
 	width:80%;
+	padding-bottom:120px;
 }
 
 .carousel.slide img{
 	margin:auto;
+	max-width:800px;
+	max-height:500px;
+	/*min-height:500px;*/
+}
+
+.carousel-caption {
+	/*bottom:-100px !important;*/
 }
