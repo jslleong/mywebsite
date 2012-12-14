@@ -1,0 +1,141 @@
+@font-face {
+  font-family: gothambook;
+	src: url('../fonts/Gotham-Book.ttf');
+}
+
+body {
+	font-family: 'gothambook';
+}
+
+p{
+	font-size:15px;
+}
+
+.paper {
+	background: url('../img/cream_dust.png');
+}
+.tac{
+	text-align:center;
+}
+
+
+
+
+
+
+.container-fluid{
+	/*background-color: #13A2C4;*/
+}
+
+
+
+
+
+.quote{
+	font-family: 'Vollkorn', serif;
+	font-style: italic;
+}
+
+.circle .image-wrap {
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+}
+
+
+.navbar .nav > li > a {
+text-shadow:none;
+font-size: 18px;	
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+color: white;	
+}
+
+.navbar-inner {
+	background-image: none;
+	background-color: #ffffff;
+	font-family: 'gothambook';
+	/*font-family: 'Lato', sans-serif;*/
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+	box-shadow: none;
+	border-bottom: 4px solid #13A2C4;
+}
+
+.navbar .brand{
+	font-size: 35px;
+}
+
+.well{
+	margin-top:0px !important;
+	margin-bottom: 0px;
+	
+	-webkit-border-radius:0;
+	border-radius:0;
+	border: 0;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-inner{
+	-webkit-border-radius:0;
+	border-radius:0;
+	border: 0;
+	
+	padding-top:25px;
+	padding-bottom:20px;
+}
+
+	
+	
+#linked_in{
+	color:#005580;
+}
+
+#dribbble{
+	color:#DD1144;
+}
+
+#contact_me{
+	color:#555555;
+}
+
+
+footer {
+	padding-bottom:30px;
+	background-color:#D5E6CA;
+	position: relative;
+	padding-top:70px;
+}
+
+#many_hats{
+	padding-bottom: 80px;
+}
+
+#work_experience{
+	background-color:#9BCFF2;
+}
+
+#work_experience h1{
+	color:#384954;
+}
+
+footer img{
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.carousel.slide{
+	margin:auto;
+	width:80%;
+}
+
+.carousel.slide img{
+	margin:auto;
+}
